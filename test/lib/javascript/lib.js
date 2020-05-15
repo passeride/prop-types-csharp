@@ -13,7 +13,8 @@ const template = (t, input, expected, options) => {
   t.is(normalize(expected), normalize(transformedSource.code));
 };
 
-const csharpImports = `using System.Collections.Generic;
+const csharpImports = `// THIS CLASSS IS GENREATED USING "prop-types-csharp", DO NOT MANUALLY EDIT
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Runtime.Serialization;`;
 
